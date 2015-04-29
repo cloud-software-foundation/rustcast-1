@@ -1,0 +1,22 @@
+[package]
+
+name = "example"
+version = "0.0.1"
+description = "An example for our rustcast"
+readme = "README.md"
+documentation = "https://github.com/cloud-software-foundation/rustcast-1"
+repository = "https://github.com/cloud-software-foundation/rustcast-1"
+license = "MIT"
+authors = ["Alex Newman <posix4e@gmail.com>"]
+keywords = ["rustcast"]
+
+[dependencies]
+log = ">= 0.2.0"
+time = "*"
+typeable = "0.1.1"
+
+[dev-dependencies]
+env_logger = "*"
+
+[features]
+nightly = []
